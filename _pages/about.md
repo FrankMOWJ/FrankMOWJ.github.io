@@ -48,7 +48,6 @@ Federated Learning" is accepted by **[ICCV 2025](https://iccv.thecvf.com/)**!
 </div>
 </div>
 
-<!-- -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/ESTM-fig.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
