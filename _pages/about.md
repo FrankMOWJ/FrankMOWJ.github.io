@@ -41,7 +41,7 @@ Federated Learning" is accepted by **[ICCV 2025](https://iccv.thecvf.com/)**!
 
 **Wenjin Mo**, Zhiyuan Li, Minghong Fang, Mingwei Fang
 
-[**Poster**](https://drive.google.com/file/d/10A2ofZmd45vLBZwNCzF_-SeMsoS0Nn5d/view?usp=sharing)
+<!-- [**Poster**](https://drive.google.com/file/d/10A2ofZmd45vLBZwNCzF_-SeMsoS0Nn5d/view?usp=sharing) -->
 - Proposed an innovative Poisoning Membership Inference Attack (PMIA) for federated learning, formulated from the perspective of optimizing the angular deviation of malicious updates.
 - Developed a novel Byzantine-robust defense mechanism against the proposed PMIA by introducing an angle-based filtering criterion.
 
