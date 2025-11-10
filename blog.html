@@ -8,23 +8,23 @@ permalink: /blog/
   <h1 class="page-title">Blog</h1>
 
   {% for post in site.posts %}
-  <div class="blog-item">
-    {% if post.image %}
-    <div class="blog-image">
-      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-    </div>
-    {% endif %}
-    <div class="blog-content">
-      <h2 class="blog-title">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h2>
-      {% if post.authors %}
-      <p class="blog-authors">{{ post.authors }}</p>
+  <a href="{{ post.url | relative_url }}" class="blog-link">
+    <div class="blog-item">
+      {% if post.image %}
+      <div class="blog-image">
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+      </div>
       {% endif %}
-      <p class="blog-desc">{{ post.description }}</p>
-      <p class="blog-date">{{ post.date | date: "%B %d, %Y" }}</p>
+      <div class="blog-content">
+        <h2 class="blog-title">{{ post.title }}</h2>
+        {% if post.authors %}
+        <p class="blog-authors">{{ post.authors }}</p>
+        {% endif %}
+        <p class="blog-desc">{{ post.description }}</p>
+        <p class="blog-date">{{ post.date | date: "%B %d, %Y" }}</p>
+      </div>
     </div>
-  </div>
+  </a>
   {% endfor %}
 </div>
 
@@ -42,6 +42,12 @@ permalink: /blog/
   margin-bottom: 40px;
 }
 
+.blog-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .blog-item {
   display: flex;
   align-items: center;
@@ -51,6 +57,7 @@ permalink: /blog/
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
 }
 
 .blog-item:hover {
@@ -77,14 +84,10 @@ permalink: /blog/
 .blog-title {
   font-size: 22px;
   margin-bottom: 8px;
-}
-
-.blog-title a {
   color: #0066cc;
-  text-decoration: none;
 }
 
-.blog-title a:hover {
+.blog-title:hover {
   text-decoration: underline;
 }
 
