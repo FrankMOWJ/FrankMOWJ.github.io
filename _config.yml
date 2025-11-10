@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Wenjin Mo"
 description              : "CS Graduate from Sun Yat-sen University. "
-repository               : "RayeRen/acad-homepage.github.io"
+repository               : "FrankMOWJ/frankmowj.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/FrankMOWJ"
+  github           : "FrankMOWJ"
   google_plus      :
   keybase          :
   instagram        :

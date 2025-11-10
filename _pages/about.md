@@ -17,10 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a CS graduate student from Sun Yat-sen University, advised by [Changdong Wang]() and [Guanbin Li](). During my undergraduate, I do research in 2 areas: (1) **AI security and privacy**, mainly focusing on Federated Learning. (2) **Surgery-assist vision model**, including doing segmentation task, and video understanding.
+I am a Computer Science graduate student at Sun Yat-sen University, advised by [Changdong Wang](https://cse.sysu.edu.cn/en/teacher/WangChangdong) and [Guanbin Li](https://guanbinli.com/). During my undergraduate studies, my research focused on two areas: (1)**AI Security and Privacy**, with an emphasis on federated learning; (2) **Vision Models for Robotic Surgery Assistance**, including segmentation and video understanding tasks.
 
-Currently, My research interest includes Large Language Models(LLMs) and Multi-modal Large Language Models(MLLMs). 
-
+Currently, my research interests lie in **Large Language Models (LLMs)** and **Multi-modal Large Language Models (MLLMs)**, with a focus on their adaptation and applications in real-world scenarios.
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -28,6 +27,8 @@ Currently, My research interest includes Large Language Models(LLMs) and Multi-m
 # 🔥 News
 - *2025.06*: &nbsp;🎉🎉 Our work “Find a Scapegoat: Poisoning Membership Inference Attack and Defense to
 Federated Learning" is accepted by **[ICCV 2025](https://iccv.thecvf.com/)**!
+- *2025.06*: &nbsp;🎉🎉 Our work “PDZSeg: Adapting the Foundation Model for Dissection Zone Segmentation with Visual Prompts in Robot-assisted Endoscopic Submucosal Dissection” won **The IHU Strasbourg and NDI Bench to Bedside Award** at IPCAI 2025!
+- *2025.05*: &nbsp;🎉🎉 Our work “ETSM: Automating Dissection Trajectory Suggestion and Confidence Map-Based Safety Margin Prediction for Robot-assisted Endoscopic Submucosal Dissection” won the **Best Application Award** at the Multi-Scale Medical Robotics Center(MRC) Symposium 2025!
 - *2025.02*: &nbsp;🎉🎉 Our work “PDZSeg: Adapting the Foundation Model for Dissection Zone Segmentation with Visual Prompts in Robot-assisted Endoscopic Submucosal Dissection” is accepted by **[IPCAI 2025](https://sites.google.com/view/ipcai2025)**!
 - *2025.01*: &nbsp;🎉🎉 Our work “ETSM: Automating Dissection Trajectory Suggestion and Confidence Map-Based Safety Margin Prediction for Robot-assisted Endoscopic Submucosal Dissection” is accepted by **[ICRA 2025](https://2025.ieee-icra.org/)**!
 
@@ -40,8 +41,9 @@ Federated Learning" is accepted by **[ICCV 2025](https://iccv.thecvf.com/)**!
 
 **Wenjin Mo**, Zhiyuan Li, Minghong Fang, Mingwei Fang
 
-[**Poster**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)
-- In this work, we 
+[**Poster**](https://drive.google.com/file/d/10A2ofZmd45vLBZwNCzF_-SeMsoS0Nn5d/view?usp=sharing)
+- Proposed an innovative Poisoning Membership Inference Attack (PMIA) for federated learning, formulated from the perspective of optimizing the angular deviation of malicious updates.
+- Developed a novel Byzantine-robust defense mechanism against the proposed PMIA by introducing an angle-based filtering criterion.
 
 </div>
 </div>
@@ -55,20 +57,33 @@ Federated Learning" is accepted by **[ICCV 2025](https://iccv.thecvf.com/)**!
 Mengya Xu, **Wenjin Mo**, Guankun Wang, Huxin Gao, An Wang, Long Bai, Chaoyang Lyu, Xiaoxiao Yang, Zhen Li, Hongliang Ren
 
 [**Code**](https://github.com/FrankMOWJ/RCMNet)
-- In this project 
+- In this work, We introduce a framework that combines optimal dissection trajectory prediction with a confidence map-based
+safety margin, providing a more secure and intelligent decision-making tool to minimize surgical risks for ESD procedures.
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IPCAI 2025</div><img src='images/PDZSeg-fig.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PDZSeg: adapting the foundation model for dissection zone segmentation with visual prompts in robot-assisted endoscopic submucosal dissection](https://link.springer.com/article/10.1007/s11548-025-03437-7)
+
+Mengya Xu, **Wenjin Mo**, Guankun Wang, Huxin Gao, An Wang, Zhen Li, Xiaoxiao Yang, Hongliang Ren
+
+[**Code**](https://github.com/FrankMOWJ/PDZSeg)
+- In this project, we introduced a prompted-based dissection zone segmentation (PDZSeg) model, which is specifically designed
+for dissection zone segmentation and can effectively utilize various visual prompts, including scribbles and bounding boxes. Furthermore, we present the ESD-DZSeg dataset for robot-assisted endoscopic submucosal dissection (ESD), which serves
+as a benchmark for assessing dissection zone suggestions and visual prompt interpretation.
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2025.06* Oustanding Graduate Student
-- *2024.10* University Second Class Scholarship, 2023
+- *2025.06* Outstanding Graduate Student
+- *2024.10* University Second-Class Scholarship, 2023
 - *2023.12* Meritorious Award-Mathematical Contest in Modeling
-- *2023.10* University First Class Scholarship, 2022
-- *2022.12* First Class
-- *2022.10* University First Class Scholarship, 2021 
+- *2023.10* University First-Class Scholarship, 2022
+- *2022.12* Provincial First Prize, China Undergraduate Mathematical Contest in Modeling
+- *2022.10* University First-Class Scholarship, 2021 
 
 # 📖 Educations
 - *2021.09 - 2025.06*, B.Eng., Computer Science and Technology, Sun Yat-sen University, Guangzhou, China
