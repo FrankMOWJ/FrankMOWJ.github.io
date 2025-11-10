@@ -29,82 +29,94 @@ permalink: /blog/
 </div>
 
 <style>
-.blog-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 60px 20px;
-}
-
-.page-title {
-  font-size: 36px;
-  font-weight: 700;
-  text-align: left;
-  margin-bottom: 40px;
-}
-
-.blog-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
-
-.blog-item {
-  display: flex;
-  align-items: center;
-  background: #fff;
-  border-radius: 12px;
-  margin-bottom: 30px;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  cursor: pointer;
-}
-
-.blog-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-}
-
-.blog-image img {
-  width: 300px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.blog-image {
-  flex-shrink: 0;
-  margin-right: 25px;
-}
-
-.blog-content {
-  flex: 1;
-}
-
-.blog-title {
-  font-size: 22px;
-  margin-bottom: 8px;
-  color: #0066cc;
-}
-
-.blog-title:hover {
-  text-decoration: underline;
-}
-
-.blog-authors {
-  font-weight: 600;
-  color: #444;
-  margin-bottom: 10px;
-}
-
-.blog-desc {
-  color: #555;
-  font-size: 16px;
-  margin-bottom: 8px;
-}
-
-.blog-date {
-  font-size: 14px;
-  color: #888;
-}
-</style>
+  .blog-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+  
+  .page-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  /* 让整块点击但不出现下划线 */
+  .blog-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  /* 鼠标悬停时阴影和浮动效果 */
+  .blog-item {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .blog-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    background-color: #fafafa;
+  }
+  
+  /* 图片 */
+  .blog-image img {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .blog-image {
+    flex-shrink: 0;
+    margin-right: 25px;
+  }
+  
+  /* 文字部分 */
+  .blog-content {
+    flex: 1;
+  }
+  
+  /* 标题 */
+  .blog-title {
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #0066cc;
+    text-decoration: none;       /* ✅ 取消下划线 */
+  }
+  
+  .blog-title:hover {
+    text-decoration: none;       /* ✅ 悬停时也不出现下划线 */
+    color: #004999;              /* 可选：让 hover 时颜色更深一点 */
+  }
+  
+  /* 作者、描述、日期 */
+  .blog-authors {
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .blog-desc {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-decoration: none;       /* ✅ 确保描述不带下划线 */
+  }
+  
+  .blog-date {
+    font-size: 14px;
+    color: #888;
+    text-decoration: none;       /* ✅ 日期无下划线 */
+  }
+  </style>
+  
