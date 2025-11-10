@@ -57,7 +57,7 @@ Federated Learning" is accepted by **[ICCV 2025](https://iccv.thecvf.com/)**!
 Mengya Xu, **Wenjin Mo**, Guankun Wang, Huxin Gao, An Wang, Long Bai, Chaoyang Lyu, Xiaoxiao Yang, Zhen Li, Hongliang Ren
 
 [**Code**](https://github.com/FrankMOWJ/RCMNet)
-- In this work, We introduce a framework that combines optimal dissection trajectory prediction with a confidence map-based
+- Introduced a framework that combines optimal dissection trajectory prediction with a confidence map-based
 safety margin, providing a more secure and intelligent decision-making tool to minimize surgical risks for ESD procedures.
 
 </div>
@@ -71,10 +71,11 @@ safety margin, providing a more secure and intelligent decision-making tool to m
 Mengya Xu, **Wenjin Mo**, Guankun Wang, Huxin Gao, An Wang, Zhen Li, Xiaoxiao Yang, Hongliang Ren
 
 [**Code**](https://github.com/FrankMOWJ/PDZSeg)
-- In this project, we introduced a prompted-based dissection zone segmentation (PDZSeg) model, which is specifically designed
-for dissection zone segmentation and can effectively utilize various visual prompts, including scribbles and bounding boxes. Furthermore, we present the ESD-DZSeg dataset for robot-assisted endoscopic submucosal dissection (ESD), which serves
-as a benchmark for assessing dissection zone suggestions and visual prompt interpretation.
+- Introduced a prompted-based dissection zone segmentation (PDZSeg) model, which is specifically designed
+for dissection zone segmentation and can effectively utilize various visual prompts, including scribbles and bounding boxes. 
 
+</div>
+</div>
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
