@@ -1,35 +1,134 @@
 ---
-layout: plain
+layout: default
 ---
 
-<div class="post-container">
-  <h1>{{ page.title }}</h1>
-  <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
-  {% if page.image %}
-  <img src="{{ page.image }}" alt="{{ page.title }}">
-  {% endif %}
-  <div class="post-content">
-    {{ content }}
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
 
-<style>
-.post-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
-.post-container img {
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-.date {
-  color: #999;
-  font-size: 14px;
-}
-.post-content {
-  line-height: 1.7;
-  font-size: 17px;
-}
-</style>
+  <!-- Prism.js for code highlighting -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
+
+  <!-- Style -->
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 0 auto;
+      max-width: 850px;
+      padding: 2rem;
+      background-color: var(--bg);
+      color: var(--text);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    :root {
+      --bg: #ffffff;
+      --text: #222222;
+      --link: #007acc;
+      --border: #eaeaea;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121212;
+        --text: #e0e0e0;
+        --link: #4ea1ff;
+        --border: #333;
+      }
+    }
+
+    h1, h2, h3, h4 {
+      font-weight: 600;
+      margin-top: 2rem;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    pre {
+      background: #f6f8fa;
+      border-radius: 8px;
+      padding: 1em;
+      overflow-x: auto;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      pre {
+        background: #1e1e1e;
+      }
+    }
+
+    blockquote {
+      border-left: 4px solid var(--link);
+      padding-left: 1em;
+      color: #666;
+      margin: 1.5em 0;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 1em 0;
+    }
+
+    #toc {
+      border-left: 3px solid var(--border);
+      padding-left: 1rem;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+    }
+
+    #toc ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    #toc li {
+      margin: 4px 0;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.6em 1.2em;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .back-button:hover {
+      background: var(--link);
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="/blog.html" class="back-button">← Back to Blog</a>
+  <h1>{{ page.title }}</h1>
+  <p style="color:gray;">{{ page.date | date: "%B %d, %Y" }}</p>
+
+  <div id="toc">
+    <strong>Table of Contents</strong>
+    {{ content | toc_only }}
+  </div>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+</body>
+</html>
