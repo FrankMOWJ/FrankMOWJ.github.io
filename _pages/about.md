@@ -27,9 +27,9 @@ Currently, My research interest includes Large Language Models(LLMs) and Multi-m
 
 # 🔥 News
 - *2025.06*: &nbsp;🎉🎉 Our work “Find a Scapegoat: Poisoning Membership Inference Attack and Defense to
-Federated Learning" is accepted by **[ICCV 2025]**(https://iccv.thecvf.com/)!
-- *2025.02*: &nbsp;🎉🎉 Our work “PDZSeg: Adapting the Foundation Model for Dissection Zone Segmentation with Visual Prompts in Robot-assisted Endoscopic Submucosal Dissection” is accepted by **[IPCAI 2025]**(https://sites.google.com/view/ipcai2025)!
-- *2025.01*: &nbsp;🎉🎉 Our work “ETSM: Automating Dissection Trajectory Suggestion and Confidence Map-Based Safety Margin Prediction for Robot-assisted Endoscopic Submucosal Dissection” is accepted by **[ICRA 2025]**(https://2025.ieee-icra.org/)!
+Federated Learning" is accepted by **[ICCV 2025](https://iccv.thecvf.com/)**!
+- *2025.02*: &nbsp;🎉🎉 Our work “PDZSeg: Adapting the Foundation Model for Dissection Zone Segmentation with Visual Prompts in Robot-assisted Endoscopic Submucosal Dissection” is accepted by **[IPCAI 2025](https://sites.google.com/view/ipcai2025)**!
+- *2025.01*: &nbsp;🎉🎉 Our work “ETSM: Automating Dissection Trajectory Suggestion and Confidence Map-Based Safety Margin Prediction for Robot-assisted Endoscopic Submucosal Dissection” is accepted by **[ICRA 2025](https://2025.ieee-icra.org/)**!
 
 # 📝 Publications 
 
@@ -41,7 +41,7 @@ Federated Learning" is accepted by **[ICCV 2025]**(https://iccv.thecvf.com/)!
 **Wenjin Mo**, Zhiyuan Li, Minghong Fang, Mingwei Fang
 
 [**Poster**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- In this work, we 
 
 </div>
 </div>
@@ -55,7 +55,7 @@ Federated Learning" is accepted by **[ICCV 2025]**(https://iccv.thecvf.com/)!
 Mengya Xu, **Wenjin Mo**, Guankun Wang, Huxin Gao, An Wang, Long Bai, Chaoyang Lyu, Xiaoxiao Yang, Zhen Li, Hongliang Ren
 
 [**Code**](https://github.com/FrankMOWJ/RCMNet)
-- hello
+- In this project 
 
 </div>
 </div>
