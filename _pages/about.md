@@ -78,12 +78,12 @@ for dissection zone segmentation and can effectively utilize various visual prom
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2025.06* Outstanding Graduate Student
-- *2024.10* University Second-Class Scholarship, 2023
-- *2023.12* Meritorious Award-Mathematical Contest in Modeling
-- *2023.10* University First-Class Scholarship, 2022
-- *2022.12* Provincial First Prize, China Undergraduate Mathematical Contest in Modeling
-- *2022.10* University First-Class Scholarship, 2021 
+- *2025.06* Outstanding Graduate Student 
+- *2024.10* University Second-Class Scholarship, 2023 (top 10%)
+- *2023.12* Meritorious Award-Mathematical Contest in Modeling (top 10%)
+- *2023.10* University First-Class Scholarship, 2022 (top 5%)
+- *2022.12* Provincial First Prize, China Undergraduate Mathematical Contest in Modeling (top 10%)
+- *2022.10* University First-Class Scholarship, 2021 (top 5%)
 
 # 📖 Educations
 - *2021.09 - 2025.06*, B.Eng., Computer Science and Technology, Sun Yat-sen University, Guangzhou, China
@@ -94,4 +94,4 @@ for dissection zone segmentation and can effectively utilize various visual prom
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2025.04 - Now*, Multi-modal Large Language Models(MLLMs) Engineer, Alibaba, China.
+- *2025.04 - Now*, Multi-modal Large Language Models (MLLMs) Engineer, Alibaba, China.
