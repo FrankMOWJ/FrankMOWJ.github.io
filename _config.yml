@@ -19,10 +19,11 @@ google_site_verification :  # get google_site_verification from https://search.g
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
+# "images/android-chrome-512x512.png"
 # Site Author
 author:
   name             : "Wenjin Mo"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/photo.jpg"
   bio              : "Sun Yat-sen University"
   location         : "Guangzhou, China"
   employer         :
