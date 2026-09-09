@@ -36,6 +36,20 @@ Federated Learning" is accepted by **[ICCV 2025](https://iccv.thecvf.com/)**!
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2026</div><img src='images/SurgVidLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SurgVidLM: Towards Multi-grained Video Understanding with Large Language Model in Robot-assisted Surgery](https://arxiv.org/pdf/2506.17873)
+
+Guankun Wang*, Junyi Wang, **Wenjin Mo**, et al.
+
+[**Code**](https://github.com/gkw0010/SurgVidLM)
+- Dataset: Built SVU-31K with 31K+ video-instruction pairs for both global and fine-grained surgical video understanding.
+- Model: Developed SurgVidLM with two-stage global-local video reasoning and Multifrequency Fusion Attention to preserve task-specific details across temporal scales.
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/find-a-scape-goat-fig.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -50,19 +64,6 @@ Federated Learning" is accepted by **[ICCV 2025](https://iccv.thecvf.com/)**!
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/SurgVidLM.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[SurgVidLM: Towards Multi-grained Video Understanding with Large Language Model in Robot-assisted Surgery](https://arxiv.org/pdf/2506.17873)
-
-Guankun Wang*, Junyi Wang, **Wenjin Mo**, et al.
-
-[**Code**](https://github.com/gkw0010/SurgVidLM)
-- Dataset: Built SVU-31K with 31K+ video-instruction pairs for both global and fine-grained surgical video understanding.
-- Model: Developed SurgVidLM with two-stage global-local video reasoning and Multifrequency Fusion Attention to preserve task-specific details across temporal scales.
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/ESTM-fig.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
