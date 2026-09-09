@@ -25,6 +25,8 @@ Currently, my research interests lie in **Large Language Models (LLMs)** and **M
 
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉🎉 Our work “SurgVidLM: Towards Multi-grained Video Understanding with Large
+Language Model in Robot-assisted Surgery” is accepted by **[ICRA 2026](https://2026.ieee-icra.org/)**!
 - *2025.06*: &nbsp;🎉🎉 Our work “Find a Scapegoat: Poisoning Membership Inference Attack and Defense to
 Federated Learning" is accepted by **[ICCV 2025](https://iccv.thecvf.com/)**!
 - *2025.06*: &nbsp;🎉🎉 Our work “PDZSeg: Adapting the Foundation Model for Dissection Zone Segmentation with Visual Prompts in Robot-assisted Endoscopic Submucosal Dissection” won **The IHU Strasbourg and NDI Bench to Bedside Award** at IPCAI 2025!
@@ -44,6 +46,20 @@ Federated Learning" is accepted by **[ICCV 2025](https://iccv.thecvf.com/)**!
 <!-- [**Poster**](https://drive.google.com/file/d/10A2ofZmd45vLBZwNCzF_-SeMsoS0Nn5d/view?usp=sharing) -->
 - Proposed an innovative Poisoning Membership Inference Attack (PMIA) for federated learning, formulated from the perspective of optimizing the angular deviation of malicious updates.
 - Developed a novel Byzantine-robust defense mechanism against the proposed PMIA by introducing an angle-based filtering criterion.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/SurgVidLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SurgVidLM: Towards Multi-grained Video Understanding with Large Language Model in Robot-assisted Surgery](https://arxiv.org/pdf/2506.17873)
+
+Guankun Wang*, Junyi Wang, **Wenjin Mo**, et al.
+
+[**Code**](https://github.com/gkw0010/SurgVidLM)
+- Dataset: Built SVU-31K with 31K+ video-instruction pairs for both global and fine-grained surgical video understanding.
+- Model: Developed SurgVidLM with two-stage global-local video reasoning and Multifrequency Fusion Attention to preserve task-specific details across temporal scales.
 
 </div>
 </div>
