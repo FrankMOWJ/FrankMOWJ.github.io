@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Computer Science graduate student at Sun Yat-sen University, advised by [Changdong Wang](https://cse.sysu.edu.cn/en/teacher/WangChangdong) and [Guanbin Li](https://guanbinli.com/). During my undergraduate studies, my research focused on two areas: (1)**AI Security and Privacy**, with an emphasis on federated learning; (2) **Vision Models for Robotic Surgery Assistance**, including segmentation and video understanding tasks.
+I am currently a Computer Science master's student at Yale University. I earned my bachelor’s degree in Computer Science from Sun Yat-sen University, where I was advised by [Changdong Wang](https://cse.sysu.edu.cn/en/teacher/WangChangdong) and [Guanbin Li](https://guanbinli.com/). During my undergraduate studies, my research focused on two areas: (1)**AI Security and Privacy**, with an emphasis on federated learning; (2) **Vision Models for Robotic Surgery Assistance**, including segmentation and video understanding tasks.
 
 Currently, my research interests lie in **Large Language Models (LLMs)** and **Multi-modal Large Language Models (MLLMs)**, with a focus on their adaptation and applications in real-world scenarios.
 
@@ -57,7 +57,7 @@ Guankun Wang*, Junyi Wang, **Wenjin Mo**, et al.
 
 **Wenjin Mo**, Zhiyuan Li, Minghong Fang, Mingwei Fang
 
-<!-- [**Poster**](https://drive.google.com/file/d/10A2ofZmd45vLBZwNCzF_-SeMsoS0Nn5d/view?usp=sharing) -->
+[**Poster**](https://drive.google.com/file/d/10A2ofZmd45vLBZwNCzF_-SeMsoS0Nn5d/view?usp=sharing)
 - Proposed an innovative Poisoning Membership Inference Attack (PMIA) for federated learning, formulated from the perspective of optimizing the angular deviation of malicious updates.
 - Developed a novel Byzantine-robust defense mechanism against the proposed PMIA by introducing an angle-based filtering criterion.
 
@@ -111,4 +111,4 @@ for dissection zone segmentation and can effectively utilize various visual prom
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2025.04 - Now*, Multi-modal Large Language Models (MLLMs) Engineer, Alibaba, China.
+- *2025.04 - 2025.12*, Multi-modal Large Language Models (MLLMs) Engineer, Alibaba, China.

@@ -7,8 +7,10 @@
 
 # Site Settings
 title                    : "Wenjin Mo"
-description              : "CS Graduate from Sun Yat-sen University. "
+description              : "CS Master's Student at Yale University. "
 repository               : "FrankMOWJ/frankmowj.github.io"
+url                      : "https://frankmowj.github.io"
+baseurl                  : ""
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -24,8 +26,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Wenjin Mo"
   avatar           : "images/photo.jpg"
-  bio              : "Sun Yat-sen University"
-  location         : "Guangzhou, China"
+  bio              : "Yale University"
+  location         : "New Haven, CT"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=or6Na0YAAAAJ"
